@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  redis:
+    image: redis:5.0.7-alpine
+    command: redis-server --requirepass DbWV0cfe
+    ports:
+      - "6379:6379"
